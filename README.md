@@ -21,7 +21,7 @@ docker build -t flask-image .
 ### Build the container
 
 ```bash
-docker run -p 5000:5000 --rm --name flask-container flask-image
+docker run -p 5001:5000 --rm --name flask-container flask-image
 ```
 
 ### Remove all images with names that contain `flask`
@@ -41,3 +41,6 @@ docker ps -a | grep "flask" | awk '{print $3}' | xargs docker rmi
 ```bash
 docker ps --format '{{.Names}}'
 ```
+### Access via Browser
+
+http://localhost:5001
