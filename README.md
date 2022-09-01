@@ -3,9 +3,9 @@
 <!-- omit in toc -->
 ## Table of Contents
 
-1. [1. Build the Image](#build-the-image)
-1. [2. Run the Container](#build-the-container)
-1. [3. Access via Browser](#access-via-browsers)
+1. [Build the Image](#build-the-image)
+1. [Run the Container](#build-the-container)
+1. [Access via Browser](#access-via-browsers)
 
 ## Command Reference
 
