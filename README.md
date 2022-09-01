@@ -18,7 +18,7 @@
 docker build -t flask-image .
 ```
 
-### Build the container
+### Run the container
 
 ```bash
 docker run -p 5001:5000 --rm --name flask-container flask-image
