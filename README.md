@@ -4,21 +4,19 @@
 ## Table of Contents
 
 1. [Command Reference](#command-reference)
-   1. [Build the image](#build-the-image)
-   1. [Build the container](#build-the-container)
-   1. [Remove all images with names that contain `flask`](#remove-all-images-with-names-that-contain-flask)
-   1. [Remove all containers with names that contain `flask`](#remove-all-containers-with-names-that-contain-flask)
-   1. [See what's running](#see-whats-running)
+   1. [Build the Image](#build-the-image)
+   1. [Run the Container](#build-the-container)
+   1. [Access via Browser](#access-via-browsers)
 
 ## Command Reference
 
-### Build the image
+### Build the Image
 
 ```bash
 docker build -t flask-image .
 ```
 
-### Run the container
+### Run the Container
 
 ```bash
 docker run -p 5001:5000 --rm --name flask-container flask-image
